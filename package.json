@@ -1,7 +1,7 @@
 {
   "name": "react-boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "Initially the content inside 'p' tag should be `Button clicked 0 times`. Whenever user clicks on button, the count inside 'p' tag should change.",
   "main": "index.js",
   "scripts": {
     "test": "jest --no-color 2>output.txt",
@@ -9,7 +9,7 @@
     "build": "webpack --mode production"
   },
   "keywords": [],
-  "author": "",
+  "author": "yash",
   "license": "ISC",
   "dependencies": {
     "css-loader": "^4.3.0",
@@ -50,5 +50,13 @@
     "webpack": "^4.44.2",
     "webpack-dev-server": "^3.11.0",
     "xml-js": "^1.6.11"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acciojob/button-counter-YashSahaa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/acciojob/button-counter-YashSahaa/issues"
+  },
+  "homepage": "https://github.com/acciojob/button-counter-YashSahaa#readme"
 }
